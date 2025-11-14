@@ -52,6 +52,7 @@ header {
 .nav-links {
   list-style: none;
   display: flex;
+  align-items: center;
 }
 
 .nav-links li {
@@ -182,6 +183,4 @@ footer {
   .logo img {
     max-height: 40px;
   }
-
-
 }
