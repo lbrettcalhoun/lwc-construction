@@ -142,35 +142,6 @@ header {
   width: 60%; /* Adjust width as needed */
 }
 
-/* Contact form */
-form {
-  max-width: 400px;
-  margin: 20px auto;
-  display: flex;
-  flex-direction: column;
-}
-
-form input, form textarea {
-  margin: 10px 0;
-  padding: 10px;
-  font-size: 1rem;
-  border: 1px solid #ccc;
-}
-
-form button {
-  background: #0a1f44;
-  color: #fff;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
-
-form button:hover {
-  background: #fdd835;
-  color: #0a1f44;
-}
-
 /* Footer */
 footer {
   background: #0a1f44;
