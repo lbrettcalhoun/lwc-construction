@@ -6,27 +6,13 @@
   <title>LWC Construction, Inc.</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="icon" type="images/png" href="images/lwc-favicon.png">
 </head>
-<script>
-  const hamburger = document.querySelector('.hamburger');
-  const navLinks = document.querySelector('.nav-links');
-  const links = document.querySelectorAll('.nav-links a');
-  // Toggle menu
-  hamburger.addEventListener('click', () => {
-    navLinks.classList.toggle('active');
-  });
-  // Close menu on link click
-  links.forEach(link => {
-    link.addEventListener('click', () => {
-      navLinks.classList.remove('active');
-    });
-  });
-</script>
 <body>
   <!-- Navigation Header -->
   <header>
     <nav class="navbar">
-      <div class="logo">LWC Construction, Inc. - Underground Utility Specialists</div>
+      <div class="logo">LWC Construction, Inc.</div>
       <ul class="nav-links">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
@@ -71,7 +57,7 @@
     <br>
     <p>LWC Construction, Inc.</p>
     <p>7580 Dorchester Road, Conway SC 29527</p>
-    <p>lwc-construction@protonmail.com</p>
+    <p>lwc@sccoast.net</p>
     <p>(843) 397-5107</p>
     <form>
       <input type="text" placeholder="Your Name" required>
@@ -79,19 +65,28 @@
       <textarea placeholder="Your Message" required></textarea>
       <button type="submit">Send</button>
     </form>
+    <img src="images/lwc-logo-small.png" alt="LWC Construction Logo" class="contact-logo">
   </section>
 
   <footer>
     <p>&copy; 2025 LWC Construction, Inc. All rights reserved.</p>
   </footer>
 
-  <!-- Minimal JS for hamburger toggle -->
   <script>
     const hamburger = document.querySelector('.hamburger');
     const navLinks = document.querySelector('.nav-links');
+    const links = document.querySelectorAll('.nav-links a');
+    // Toggle menu
     hamburger.addEventListener('click', () => {
       navLinks.classList.toggle('active');
     });
+    // Close menu on link click
+    links.forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+      });
+    });
   </script>
+
 </body>
 </html>

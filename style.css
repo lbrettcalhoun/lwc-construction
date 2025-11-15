@@ -156,6 +156,12 @@ footer {
   padding: 15px;
 }
 
+.contact-logo {
+  max-width: 100px;
+  margin: 10px auto;
+  display: block;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .nav-links {
@@ -172,12 +178,12 @@ footer {
     display: flex;
   }
 
-  .hamburger {
-    display: block;
-  }
-
   .nav-links li {
     margin: 15px 0;
+  }
+
+  .hamburger {
+    display: block;
   }
 
   .logo img {
