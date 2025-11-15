@@ -118,6 +118,30 @@ header {
   margin: 0 auto;
 }
 
+/* Facebook */
+.social-links {
+  margin: 30px auto;
+  text-align: center;
+}
+
+.social-icon {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+}
+
+.social-divider {
+  border: none;
+  height: 2px;
+  background-color: #0a1f44; /* Navy blue */
+  margin: 10px auto;
+  width: 60%; /* Adjust width as needed */
+}
+
 /* Contact form */
 form {
   max-width: 400px;
